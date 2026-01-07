@@ -1,56 +1,14 @@
-annotated-doc==0.0.4
-annotated-types==0.7.0
-anyio==4.12.0
-asttokens==2.4.1
-Bottleneck @ file:///C:/miniconda3/conda-bld/bottleneck_1761938096667/work
-click==8.3.1
-colorama==0.4.6
-comm==0.2.2
-debugpy==1.8.8
-decorator==5.1.1
-exceptiongroup==1.2.2
-executing==2.1.0
-fastapi==0.128.0
-greenlet==3.3.0
-h11==0.16.0
-idna==3.11
-ipykernel==6.29.5
-ipython==8.29.0
-jedi==0.19.2
-joblib @ file:///C:/miniconda3/conda-bld/joblib_1757926370033/work
-jupyter_client==8.6.3
-jupyter_core==5.7.2
-matplotlib-inline==0.1.7
-mkl-service==2.5.2
-mkl_fft @ file:///C:/miniconda3/conda-bld/mkl_fft_1761592981169/work
-mkl_random @ file:///C:/miniconda3/conda-bld/mkl_random_1761593075610/work
-nest-asyncio==1.6.0
-numexpr @ file:///C:/miniconda3/conda-bld/numexpr_1762165723970/work
-numpy @ file:///C:/miniconda3/conda-bld/numpy_and_numpy_base_1761579405538/work/dist/numpy-2.2.5-cp310-cp310-win_amd64.whl#sha256=074bffd27eaf24d54337a4bac76b167c7d794ddb6a813f6fa3fb37c91af766a8
-pandas @ file:///C:/miniconda3/conda-bld/pandas_1762332399653/work/dist/pandas-2.3.3-cp310-cp310-win_amd64.whl#sha256=25368e0adc93a7db0f3983502b4e57344f71af8f45ca3849f7c3833738f306aa
-parso==0.8.4
-platformdirs==4.3.6
-prompt_toolkit==3.0.48
-psutil==6.1.0
-pure_eval==0.2.3
-pydantic==2.12.5
-pydantic_core==2.41.5
-Pygments==2.18.0
-python-dateutil @ file:///C:/b/abs_3au_koqnbs/croot/python-dateutil_1716495777160/work
-pytz @ file:///C:/b/abs_f8wdzeix0n/croot/pytz_1752135878094/work
-pywin32==308
-pyzmq==26.2.0
-scikit-learn @ file:///C:/b/abs_45qemhn4lg/croot/scikit-learn_1753427401078/work
-scipy @ file:///C:/miniconda3/conda-bld/scipy_1759222090244/work/dist/scipy-1.15.3-cp310-cp310-win_amd64.whl#sha256=2c02ce5f7bc108a9dd2298fac421e55898c14864219396421ffe00419ec8c736
-six @ file:///C:/b/abs_149wuyuo1o/croot/six_1744271521515/work
-SQLAlchemy==2.0.45
-stack-data==0.6.3
-starlette==0.50.0
-threadpoolctl @ file:///C:/miniconda3/conda-bld/threadpoolctl_1764361785970/work
-tornado==6.4.1
-traitlets==5.14.3
-typing-inspection==0.4.2
-typing_extensions==4.15.0
-tzdata @ file:///croot/python-tzdata_1746123641790/work
-uvicorn==0.40.0
-wcwidth==0.2.13
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+python-jose==3.3.0
+python-dotenv==1.0.1
+
+scikit-learn==1.3.2
+joblib
+pandas
+numpy==1.26.4
+
+redis==5.0.4
+
+prometheus-fastapi-instrumentator==6.1.0
